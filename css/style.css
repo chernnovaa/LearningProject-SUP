@@ -38,7 +38,7 @@ img {
   font-family: 'Comfortaa', cursive;
 }
 .header {
-  background-image: url(/images/header-bg.jpg);
+  background-image: url(../images/header-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -49,7 +49,7 @@ img {
 .header::before {
   content: "";
   position: absolute;
-  background-image: url(/images/header-decor.svg);
+  background-image: url(../images/header-decor.svg);
   bottom: 0;
   left: 0;
   right: 0;
@@ -63,7 +63,7 @@ img {
 .header::after {
   content: "";
   position: absolute;
-  background-image: url(/images/header-decor.svg);
+  background-image: url(../images/header-decor.svg);
   bottom: 0;
   left: 0;
   right: 0;
